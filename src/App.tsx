@@ -2,9 +2,10 @@ import React, { useState } from 'react'
 import Intro from './components/Intro'
 import Projects from './components/Projects'
 import Stats from './components/Stats';
+import Contributions from './components/Contributions';
 
 const App: React.FC = () => {
-  const [theme, setTheme] = useState<'light' | 'dark'>('light')
+  const [theme, setTheme] = useState<'light' | 'dark'>('dark')
 
   const toggleTheme = () => {
     const newTheme = theme === 'light' ? 'dark' : 'light'
@@ -22,6 +23,7 @@ const App: React.FC = () => {
       </header>
       <main style={{ textAlign: 'center' }}>
         <Stats />
+        <Contributions />
         <Projects />
       </main>
     </div>
