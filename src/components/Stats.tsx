@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Stats: React.FC = () => {
   return (
@@ -8,7 +8,7 @@ const Stats: React.FC = () => {
         alt="GitHub Stats"
       />
     </div>
-  )
-}
+  );
+};
 
-export default Stats
+export default Stats;

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Intro from './components/Intro'
-import Stats from './components/Stats'
 import Projects from './components/Projects'
+import Stats from './components/Stats';
 
 const App: React.FC = () => {
   const [theme, setTheme] = useState<'light' | 'dark'>('light')

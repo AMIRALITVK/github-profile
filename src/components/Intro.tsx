@@ -18,3 +18,5 @@ const Intro: React.FC = () => {
     </div>
   );
 };
+
+export default Intro;
